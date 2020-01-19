@@ -12,3 +12,6 @@ https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes
 
 ### Animating Views and Transitions
 https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions
+
+### Composing Complex Interfaces
+https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces
