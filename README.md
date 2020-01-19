@@ -1,19 +1,14 @@
 # SwiftUI Tutorials
 
-### Creating and Combining Views
+### SwiftUI Essentials
 https://developer.apple.com/tutorials/swiftui/creating-and-combining-views
-
-### Building Lists and Navigation
 https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation
-
-### Handling User Input
 https://developer.apple.com/tutorials/swiftui/handling-user-input
 
-### Drawing Paths and Shapes
+### Drawing and Animation
 https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes
-
-### Animating Views and Transitions
 https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions
 
-### Composing Complex Interfaces
+### App Design and Layout
 https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces
+https://developer.apple.com/tutorials/swiftui/working-with-ui-controls
