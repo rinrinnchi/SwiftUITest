@@ -37,9 +37,7 @@ struct CategoryHome: View {
             List {
                 FeaturedLandmarks(landmarks: featured)
                     .scaledToFill()
-                    .frame(height: 200)
                     .clipped()
-                
                 ForEach(categories.keys.sorted(), id: \.self) { key in
                     CategoryRow(categoryName: key, items: self.categories[key]!)
                 }
@@ -62,7 +60,8 @@ struct CategoryHome: View {
 struct FeaturedLandmarks: View {
     var landmarks: [Landmark]
     var body: some View {
-        landmarks[0].image.resizable()
+        PageView(features.map { FeatureCard(landmark: $0) })
+            .aspectRatio(3/2, contentMode: .fit)
     }
 }
 
